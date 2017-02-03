@@ -1,0 +1,132 @@
+.floatLeft{
+    float: left;
+}
+.floatRight{
+    float: right;
+}
+footer{
+    background: #71717b;
+    padding: 10px 0 0 0;
+}
+footer .footerWrap{
+    width: 1190px;
+    margin: 0 auto;
+}
+footer .footerWrap img{
+    height: 40px;
+}
+footer .footerWrap .title{
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0;
+}
+footer .footerCarousel{
+    padding-bottom: 20px;
+    position: relative;
+    border-bottom: 1px dashed #fff
+
+}
+footer .footerCarousel2{
+    border: none;
+}
+footer .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+footer .swiper-slide {
+    /*width: 110px !important;*/
+    /*margin-right: 10px !important;*/
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+footer .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    line-height: 17px;
+    text-align: center;
+    color: #ccc;
+    background: #fff;
+    border-radius: 50%;
+
+}
+footer .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    line-height: 17px;
+    text-align: center;
+    color: #ccc;
+    background: #fff;
+    border-radius: 50%;
+}
+.footerPrev{
+    left: -30px;
+    top: 31px;
+    font-size: 24px;
+    color: #cccccc;
+}
+.footerNext{
+    right: -30px;
+    top: 31px;
+    font-size: 24px;
+    color: #cccccc;
+}
+footer .join .joinul{
+    width: 1190px;
+    margin: 0 auto;
+    text-align: center;
+}
+footer .join .joinul a{
+    display: inline-block;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+footer .join .joinul a:hover{
+    color: #0097FE;
+    font-size: 12px;
+}
+footer .join .joinul a .line{
+    position: relative;
+    left: 10px;
+}
+footer .join .joinul .ewm{
+    position: relative;
+}
+footer .join .joinul .ewm img{
+    position: absolute;
+    width: 89px;
+    height: 116px;
+    top: -85px;
+    left: 0px;
+    z-index: 100;
+    display: none;
+}
+footer .join .joinul .ewm:hover img{
+    display: block;
+}
+footer .banquan{
+    text-align: center;
+    color:#fff;
+    padding-bottom: 20px;
+}
+footer .banquan span{
+    display: inline-block;
+}

@@ -1,0 +1,144 @@
+.mainnav{
+    width:100%;
+}
+.nav-wrap1{
+    width:100%;
+    background:#2c2c2c ;
+    position: fixed;
+    /* margin-bottom: 40px; */
+    top: 0;
+    /*width: 100%;*/
+    z-index: 10000;
+    /*background: #2c2c2c;*/
+}
+.nav-wrap2{
+    width:100%;
+    background:#fff ;
+    margin-top: 40px;
+}
+.mainnav .nav{
+    background:#2c2c2c ;
+    /*height: 40px;*/
+    /*line-height: 40px;*/
+    font-size: 11px;
+    color:#ffffff;
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.mainnav .nav .nav-list li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 18px;
+
+}
+.mainnav .nav .nav-list li a{
+    font-size: 11px;
+    color:#ffffff;
+
+}
+.mainnav .nav .nav-right div{
+    float: left;
+}
+.mainnav .nav .nav-right p{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+}
+.mainnav .nav .nav-right .nav-conn p{
+    padding: 0 13px;
+}
+.mainnav .nav .nav-right .nav-conn .weixin span{
+    display: inline-block;
+    width: 17px;
+    height: 14px;
+    background: url("../asource/img/homePageIcon.png") -8px 0;
+}
+.mainnav .nav .nav-right .nav-conn .weibo span{
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    background: url("../asource/img/homePageIcon.png") -26px -1px;
+
+}
+.mainnav .nav .nav-right .nav-ctrl1 p{
+    padding: 0 18px;
+}
+.mainnav .nav .nav-right .nav-ctrl2 p{
+    padding: 0 10px;
+}
+.mainnav .nav2{
+    margin: 0 auto;
+    width: 1190px;
+    height: 100px;
+    /*line-height: 100px;*/
+    background: #ffffff;
+}
+.mainnav .nav2 .nav2-item{
+    margin: 25px 0;
+}
+.mainnav .nav2 .nav2-item .logo-tip{
+    font-size: 14px;
+    color: #7e7d7d;
+    margin-left: 10px;
+    text-align: center;
+}
+.wangzhi{
+    background: #ff9126;
+    width: 115px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 5px;
+    border-radius: 13px;
+    font-size: 10px;
+    color: #ffffff;
+}
+.mainnav .nav2 .logo {
+    display: inline-block;
+    width: 165px;
+    height: 44px;
+    background: url("../asource/img/homePageIcon.png") -100px -49px;
+
+}
+.mainnav .nav2 .search-wrap .search-item{
+    width: 800px;
+    height: 45px;
+    border: 3px solid #0097ff;
+    position: relative;
+    box-sizing: border-box;
+}
+.mainnav .nav2 .search-wrap .search-item .search-ipt{
+    width: 718px;
+    height: 38px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.mainnav .nav2 .search-wrap .search-item .search-tips{
+    position: absolute;
+    top: 6px;
+    right: 80px;
+}
+.mainnav .nav2 .search-wrap .search-item .search-tips span{
+    display: inline-block;
+    margin: 0 2px;
+    height: 26px;
+    line-height: 25px;
+    padding: 0 8px;
+    background: #ebebeb;
+}
+.mainnav .nav2 .search-wrap .search-item .search-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-sizing: border-box;
+    border: none;
+    height: 41px;
+    width: 75px;
+    background: #0097ff;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: #ffffff;
+}

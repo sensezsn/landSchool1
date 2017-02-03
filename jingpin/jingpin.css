@@ -1,0 +1,84 @@
+.jingpin{
+    width: 1190px;
+    margin: 0 auto 40px ;
+}
+.jingpin .jingpin-title{
+    text-align: center;
+    color: #282722;
+    font-size: 28px;
+    padding: 40px 0;
+}
+.jingpin .jingpinList .jingpinItem a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #49a0ea;
+    position: relative;
+    text-align: center;
+}
+.jingpin .jingpinList .jingpinItem a button{
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    border-radius: 15px;
+    color: #49a0ea;
+    background: #fff;
+    opacity: 0;
+    transition: all 0.1s;
+    position: relative;
+    top: -50px;
+    border: none;
+    font-family: "Microsoft YaHei";
+}
+.jingpin .jingpinList .jingpinItem a:hover button{
+    opacity: 1;
+}
+.jingpin .jingpinList .jingpinItem a:hover .itemNow{
+    background: none;
+}
+.jingpin .jingpinList .jingpinItem a:hover .itemNow p{
+    opacity: 0;
+}
+.jingpin .jingpinList .jingpinItem {
+    float: left;
+    width: 24%;
+    height: 216px;
+    margin-right: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.jingpin .jingpinList .jingpinItem .itemNow {
+    /*background: red;*/
+    width: 100%;
+    height: 100%;
+    background:url("../jingpin/img/excellent_course_icon1.png") no-repeat center 13px;
+    position: relative;
+}
+.jingpin .jingpinList .jingpinItem .itemNow p{
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+.jingpin .jingpinList .jingpinItem .itemTips{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.1);
+    /*opacity: 0.5;*/
+    width: 0;
+    /*height: 100%;*/
+    color: #fff;
+    overflow: hidden;
+}
+.jingpin .jingpinList .jingpinItem .itemTips p{
+    height: 80px;
+    overflow: hidden;
+    margin-top: 10px;
+    padding: 5px;
+}

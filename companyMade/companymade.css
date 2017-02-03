@@ -1,0 +1,145 @@
+.companyMade .main-content {
+    width: 1190px;
+    margin: 0 auto;
+    color: #5c5c5c;
+}
+.companyMade .main-content .nav{
+    margin-top: 10px;
+    background: #f8f8f8;
+    border-left: 20px solid #a9a9a9;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.companyMade .main-content .nav a{
+    color:#337ab7;
+}
+.companyMade .main-content .proClass .title{
+    vertical-align: middle;
+    height: 30px;
+    line-height: 30px;
+    padding: 20px 0 0px 0;
+    /**/
+}
+.companyMade .main-content .proClass .title i{
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 19px;
+    height: 19px;
+    width: 19px;
+    background: url("../asource/img/indexicon.png") no-repeat -149px -5px;
+    position: relative;
+    top:4px;
+}
+.companyMade .main-content .proClass-con{
+    padding: 0 20px;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+}
+.companyMade .main-content .proClass-con dl{
+    padding: 15px 0;
+    border-bottom: #f1f1f1 1px solid;
+}
+.companyMade .main-content .proClass-con dt{
+    display: inline-block;
+    padding-right: 15px;
+}
+.companyMade .main-content .proClass-con dd{
+    display: inline-block;
+    padding: 0 15px;
+}
+.companyMade .main-content .hot .hot-title{
+    /*padding: 20px 30px;*/
+    height: 50px;
+    line-height: 50px;
+    background: #f4f4f4;
+    font-size: 12px;
+    padding-left: 30px;
+}
+/*.companyMade .main-content .hot .hot-title .new{*/
+    /*color: #fff;*/
+    /*background: #ff9125;*/
+    /*padding: 5px;*/
+    /*cursor: pointer;*/
+/*}*/
+/*.companyMade .main-content .hot .hot-title .hot1{*/
+    /*color: #337ab7;*/
+    /*margin-left: 10px;*/
+    /*cursor: pointer;*/
+/*}*/
+.companyMade .main-content .hot .hot-title span:hover {
+    color: #fff;
+    background: #ff9125;
+    padding: 5px;
+    cursor: pointer;
+}
+.companyMade .main-content .hot .hot-title .selectNew{
+    color: #fff !important;
+    background: #ff9125 !important;
+    padding: 5px;
+    cursor: pointer;
+}
+.companyMade .main-content .hot .hot-title .noselectNew{
+    color: #5c5c5c !important;
+    cursor: pointer;
+    background: transparent !important;
+    padding: 5px;
+
+}
+.pages {
+    list-style: none;
+    text-align: center;
+    padding: 40px 0;
+}
+.pages  li{
+    list-style: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    /*background: #0097FE;*/
+    margin: 30px 5px;
+}
+.pages  li.active{
+    background: #0097FE;
+    color: #fff;
+}
+.pages  li:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+.pages .prev{
+    border-radius: 3px;
+    width: 80px;
+}
+.companyMade .main-content .hot .hot-con .hot-list{
+    padding: 5px;
+    background: #fff;
+    margin: 3px 0 3px 13px;
+    /* width: 282.4px; */
+    float: left;
+    border: 1px solid #efefef;
+    font-size: 12px;
+}
+.companyMade .main-content .hot .hot-con .hot-list img{
+    width: 272px;
+    height: 138px;
+}
+.Tips{
+    position: relative;
+    padding: 5px 0;
+}
+.Tips span{
+    margin-right: 10px;
+}
+.Tips .price{
+    color: red;
+}
+.Tips .notice{
+    position: absolute;
+    right: 10px;
+}

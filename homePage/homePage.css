@@ -1,0 +1,183 @@
+
+.swiper-container {
+    /*width: 600px;*/
+    height: 418px;
+}
+.swiper-container img{
+    width: 100%;
+    /*min-width: 1190px;*/
+    height: 418px;
+    background-size: cover;
+}
+
+.carousel .swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet{
+    display: inline-block;
+    width: 80px;
+    height: 5px;
+    background: #0097ff;
+    border-radius: 3px;
+    margin: 0 4px;
+}
+.homePage .carousel{
+    position: relative;
+}
+.homePage .carousel .homeMenu{
+    position: absolute;
+    padding: 10px 0;
+    background: rgba(0, 151, 255, 0.8);
+    z-index: 100;
+    top: 0;
+    left:100px;
+    -webkit-box-shadow :14px 14px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow:14px 14px 5px rgba(0,0,0,0.2);
+    box-shadow:14px 14px 5px rgba(0,0,0,0.2);
+}
+.homePage .carousel .homeMenu .menu1{
+    background: url("img/ban-icon.png") no-repeat 6px 6px;
+    border: none !important;
+}
+.homePage .carousel .homeMenu .menu2{
+    background: url("img/ban-icon2.png") no-repeat 6px 6px;
+}
+.homePage .carousel .homeMenu .menu3{
+    background: url("img/ban-icon3.png") no-repeat 6px 6px;
+}
+.homePage .carousel .homeMenu .menu4{
+    background: url("img/ban-icon4.png") no-repeat 6px 6px;
+}
+.homePage .carousel .homeMenu .menu{
+    width: 230px;
+    box-sizing: border-box;
+    border-top: 1px solid #fff;
+    padding-bottom: 19px;
+    position: relative;
+    /*z-index: 102;*/
+    overflow: hidden;
+}
+.homePage .carousel .homeMenu .menu .menu-list{
+    z-index: 101;
+    /*background: red;*/
+}
+.homePage .carousel .homeMenu .menu h2{
+    font-size: 18px;
+    color: #fff;
+    padding-left: 38px;
+    padding-top: 8px;
+    z-index: 101;
+}
+.homePage .carousel .homeMenu .menu a{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 12px;
+    width: 60px;
+    padding-left: 10px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+}
+.homePage .carousel .homeMenu .conOne{
+    width: 230px;
+    box-sizing: border-box;
+    position: absolute;
+    left:-220px;
+    height: 100%;
+    z-index: -5;
+    /*background: rgba(0,0,0,0.2);*/
+    background: #47B0D4;
+}
+.homePage .carousel .homeMenu .conTow{
+    background: #826DBF;
+}
+.homePage .intro{
+    background: #f5f5f5;
+    padding: 40px 0;
+}
+
+/*intro ----------*/
+.homePage .intro h1{
+    min-width: 1190px;
+    text-align: center;
+    height: 120px;
+    background: url("img/bj1.png") no-repeat  center ;
+}
+.homePage .intro .success{
+    min-width: 1190px;
+    margin-top: 10px;
+}
+.homePage .intro .success .spec{
+    width: 24%;
+    text-align: center;
+    float: left;
+}
+.homePage .intro .success .spec span{
+    display: inline-block;
+    width: 101px;
+    height: 96px;
+}
+.homePage .intro .success .spec1 span{
+     background: url("img/introimg1.png");
+ }
+.homePage .intro .success .spec2 span{
+    background: url("img/introimg2.png");
+}
+.homePage .intro .success .spec3 span{
+    background: url("img/introimg3.png");
+}
+.homePage .intro .success .spec4 span{
+    background: url("img/introimg4.png");
+}
+/*课程部分*/
+.classTab{
+    width: 1190px;
+    padding: 26px 0;
+    margin: 0 auto;
+}
+
+.classTab .proClass h1{
+    font-size: 18px;
+    color: #3e3a39;
+    line-height: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-top: 20px;
+}
+.classTab .proClass h1 .title{
+    border-bottom: 2px solid #0097FE;
+    padding: 0 5px;
+}
+.classTab .proClass .classCon{
+    margin: 20px 0;
+}
+.classWrap{
+    padding: 5px;
+    border: 1px solid #efefef;
+    border-radius: 2px;
+}
+.classLeft{
+    margin-top:10px;
+}
+.classLeft:hover{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    opacity: 0.6;
+}
+.classRight{
+    width: 900px;
+    /*padding-left: 10px;*/
+}
+.classRight a img{
+    width: 100%;
+    height: 138px;
+}
+.classR{
+    width: 280px;
+    box-sizing: border-box;
+    padding: 5px;
+    background: #fff;
+    margin-top: 12px;
+    margin-left: 19px;
+    float: left;
+    border: 1px solid #efefef;
+}
+.classR:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    opacity: 0.6;
+}

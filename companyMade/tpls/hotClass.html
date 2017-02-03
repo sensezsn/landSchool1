@@ -1,0 +1,24 @@
+<div>
+    <div class="clearFix">
+        <div class="hot-list" ng-repeat="s in source track by $index">
+            <img ng-src="../companyMade/img/{{s.src}}" alt="">
+            <p>{{s.tips}}</p>
+            <p class="Tips">
+                <span class="price">￥{{s.price}}</span>
+                <del>原价45.00</del>
+                <span class="notice">关注：{{s.noticeNum}}</span>
+            </p>
+        </div>
+    </div>
+
+    <ul class="pages">
+        <li class="prev" ng-click="changeImg(now-1)"><a >上一页</a></li>
+        <li ng-repeat="i in pages | pageFilter:now track by $index"
+
+            ng-class="{true:'active'}[now==i]"
+            ng-click="changeImg(i)">
+            <a>{{i}}</a>
+        </li>
+        <li class="prev" ng-click="changeImg(now+1)"><a >下一页</a></li>
+    </ul>
+</div>

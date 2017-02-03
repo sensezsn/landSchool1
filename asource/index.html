@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/initialize.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="../mainNav/mainNav.css"/>
+
+
+
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="js/angular-ui-router.js"></script>
+
+    <!-- mainNav 导航模块-->
+    <script src="../mainNav/mainNavApp.js"></script>
+    <script src="../mainNav/directive/mainNavDir.js"></script>
+    <!--<script src="../mainNav/controller/mainNavCtrl.js"></script>-->
+    <!--<script src="../mainNav/service/mainNavService.js"></script>-->
+
+    <!-- 首页模块-->
+    <link rel="stylesheet" href="../homePage/homePage.css"/>
+    <script src="../homePage/homePageApp.js"></script>
+    <script src="../homePage/controller/homePageCtrl.js"></script>
+
+    <!--在线课程conpanymade-->
+    <link rel="stylesheet" href="../companyMade/companymade.css">
+    <script src="../companyMade/controller/companyMadeCtrl.js"></script>
+    <script src="../companyMade/companyMadeApp.js"></script>
+
+    <!--精品课程jingpin-->
+    <script src="../jingpin/controller/jingpinCtrl.js"></script>
+    <script src="../jingpin/jingpinApp.js"></script>
+    <link rel="stylesheet" href="../jingpin/jingpin.css">
+
+    <!--公开课publicClass-->
+    <script src="../publicClass/controller/publicClassCtrl.js"></script>
+    <script src="../publicClass/publicClassApp.js"></script>
+    <link rel="stylesheet" href="../publicClass/publicClass.css">
+
+    <!-- 引入appjs-->
+    <script src="app.js"></script>
+
+</head>
+<body>
+<div  ng-app="myApp"  class="container">
+    <div class="wrap">
+        <mainnav></mainnav>
+        <div ui-view></div>
+    </div>
+    <footer>
+        <div class="footerWrap">
+            <h1 class="title">友情链接</h1>
+            <div class="footerCarousel footerCarousel2">
+                <div class="swiper-container footerCarousel ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/f1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/f2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/f3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/f4.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/f5.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/f6.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/f7.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/f8.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/f9.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/f10.jpg" alt=""></div>
+                    </div>
+                    <!--<div class="swiper-button-prev footerPrev">&lt;</div>-->
+                    <!--<div class="swiper-button-next footerNext">&gt;</div>-->
+                </div>
+                <div class="swiper-button-prev footerPrev">&lt;</div>
+                <div class="swiper-button-next footerNext">&gt;</div>
+            </div>
+            <div class="join">
+                <p class="joinul">
+                    <a href="#">关于我们 <span class="line">|</span></a>
+                    <a href="#">加入我们 <span class="line">|</span></a>
+                    <a href="#">联系我们<span class="line">|</span></a>
+                    <a href="#">博志成官网<span class="line">|</span></a>
+                    <a href="#" class="ewm">
+                        <span>博志成订阅号</span>
+                        <img src="img/subscibe.png" alt="">
+                    </a>
+                </p>
+            </div>
+            <div class="banquan">
+                <span>©2015.地产学堂-专注房地产人才培训 京ICP备09020143-3 All rights reserved</span>
+            </div>
+        </div>
+    </footer>
+</div>
+
+</body>
+<script>
+
+    var swiper = new Swiper('.footerCarousel', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        slidesPerView: 5,
+        spaceBetween: 50,
+//        autoplay:'1000',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        breakpoints: {
+            1024: {
+                slidesPerView: 4,
+                spaceBetween: 40
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            },
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            },
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10
+            }
+        }
+    });
+</script>
+</html>

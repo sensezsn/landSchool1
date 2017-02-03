@@ -1,0 +1,110 @@
+.publicCon{
+    width:1190px;
+    margin: 0 auto;
+}
+.publicClass .cImg img{
+    width: 100%;
+    height: 400px;
+}
+.publicClass .newClass{
+    float: left;
+}
+.publicClass .newClass .newClassItem{
+    border: 1px solid #D4D4D4;
+    width:900px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.publicClass .newClass h2{
+    width: 900px;
+    clear: both;
+    overflow: hidden;
+    padding: 20px 0 9px 0;
+    border-bottom: 1px solid #D4D4D4;
+    margin-bottom: 25px;
+}
+.publicClass .tuijian{
+    float: right;
+}
+.publicClass .tuijian h2{
+    width: 250px;
+    clear: both;
+    overflow: hidden;
+    padding: 20px 0 9px 0;
+    border-bottom: 1px solid #D4D4D4;
+    margin-bottom: 25px;
+}
+.publicClass .newClass h2 a,.publicClass .tuijian h2 a{
+    color: #FF9125;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.publicClass .newClass .newClassItem img{
+    width: 248px;
+    height: 149px;
+    float: left;
+}
+.publicClass .newClass .newClassItem .classMsg{
+    /*background: red;*/
+    width: 470px;
+    margin-left: 260px;
+    /*display: inline-block;*/
+    /*float: left;*/
+}
+.publicClass .newClass .newClassItem .classMsg .title{
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+    /*margin-bottom: 10px;*/
+}
+.publicClass .newClass .newClassItem .classMsg .content{
+    position: absolute;
+    bottom: 0;
+    width: 470px;
+}
+.publicClass .newClass .newClassItem .classMsg .content .cA{
+    font-size: 14px;
+}
+.publicClass .newClass .newClassItem .classMsg .content .cA .cMsg{
+    padding-bottom: 10px;
+}
+.publicClass .newClass .newClassItem .classMsg .content .price{
+    color: #FF9126;
+    font-size: 14px;
+}
+.publicClass .newClass .newClassItem   .baoming{
+    position: absolute;
+    right: 20px;
+    top:50px;
+    width: 111px;
+    height: 36px;
+    background: #FF9125;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all 0.3s ;
+}
+.publicClass .newClass .newClassItem   .baoming:hover{
+    cursor: pointer;
+    transform: translate(3px,3px);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+}
+.publicClass .tuijian .tuijianItem{
+    padding: 10px 0;
+}
+.publicClass .tuijian .tuijianItem img{
+    width: 254px;
+    height: 132px;
+    margin-bottom: 10px;
+    transition: all 0.3s ;
+
+}
+.publicClass .tuijian .tuijianItem img:hover{
+    cursor: pointer;
+    transform: translate(3px,3px);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+}

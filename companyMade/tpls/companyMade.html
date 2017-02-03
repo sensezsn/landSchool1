@@ -1,0 +1,117 @@
+<div class="companyMade">
+    <header>
+        <img src="../companyMade/img/inlinebanner.jpg" alt="">
+    </header>
+    <div class="main-content">
+            <h1 class="nav">
+                <a ui-sref="homePage">首页</a>
+                <span>/ </span>
+                <span>在线课程</span>
+            </h1>
+        <div class="proClass">
+            <h2 class="title">
+                <i></i><a href="#">专业分类</a>
+            </h2>
+            <div class="proClass-con">
+                <dl>
+                    <dt>住宅地产 ：</dt>
+                    <dd>投融资</dd>
+                    <dd>前期开发</dd>
+                    <dd>定位策划</dd>
+                    <dd>设计管理</dd>
+                    <dd>成本招采</dd>
+                    <dd>工程管理</dd>
+                    <dd>营销管理</dd>
+                    <dd>社区营销</dd>
+                    <dd>品牌客服</dd>
+                </dl>
+                <dl>
+                    <dt>商业地产 ：</dt>
+                    <dd>定位策划</dd>
+                    <dd>设计工程</dd>
+                    <dd>商业物业</dd>
+                </dl>
+                <dl>
+                    <dt>其他业务 ：</dt>
+                    <dd>产业地产</dd>
+                    <dd>文旅地产</dd>
+                </dl>
+                <dl>
+                    <dt>管理类 ：</dt>
+                    <dd>战略运营</dd>
+                    <dd>企业管理</dd>
+                    <dd>产品线</dd>
+                    <dd>财务税筹</dd>
+                    <dd>人力资源</dd>
+                    <dd>行政会议</dd>
+                    <dd>信息化</dd>
+                    <dd>办公技巧</dd>
+                    <dd>运用管理</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="hot">
+            <h2 class="hot-title">
+                <span class="new"
+                      ng-click="changTap(1)"
+                      ng-class="{true:'selectNew',false:'noselectNew'}[selectNew]"
+                      ui-sref="companyMade.zuixin">
+                    <a >最新
+                    </a>
+                </span>
+                <span class="hot1"
+                      ng-click="changTap(0)"
+                      ng-class="{false:'selectNew',true:'noselectNew'}[selectNew]"
+                      ui-sref="companyMade.zuire">
+                    <a >最热
+                    </a>
+                </span>
+            </h2>
+            <div ui-view class="hot-con clearFix">
+                <!--<div class="hot-list">
+                    <img src="../companyMade/img/class1.jpg" alt="">
+                    <p>一级开发-&#45;&#45;关注那些核心问题</p>
+                    <p class="Tips">
+                        <span class="price">￥35.00</span>
+                        <del>原价45.00</del>
+                        <span class="notice">关注：0</span>
+                    </p>
+                </div>-->
+                <!--<div class="hot-list" ng-repeat="s in source track by $index">
+                    <img ng-src="../companyMade/img/{{s.src}}" alt="">
+                    <p>{{s.tips}}</p>
+                    <p class="Tips">
+                        <span class="price">￥{{s.price}}</span>
+                        <del>原价45.00</del>
+                        <span class="notice">关注：{{s.noticeNum}}</span>
+                    </p>
+                </div>-->
+            </div>
+            <!--<ul class="pages">-->
+                <!--<li class="prev" ng-click="changeImg(now-1)"><a >上一页</a></li>-->
+                <!--<li ng-repeat="i in pages | pageFilter:now track by $index"-->
+
+                    <!--ng-class="{true:'active'}[now==i]"-->
+                    <!--ng-click="changeImg(i)">-->
+                    <!--<a>{{i}}</a>-->
+                <!--</li>-->
+                <!--<li class="prev" ng-click="changeImg(now+1)"><a >下一页</a></li>-->
+            <!--</ul>-->
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

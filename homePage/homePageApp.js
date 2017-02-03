@@ -1,0 +1,2 @@
+angular.module('homePageApp',['homePageCtrl'])
+
